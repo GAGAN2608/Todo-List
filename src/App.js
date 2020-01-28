@@ -19,22 +19,21 @@ function App() {
     editItem : false
   };
   handleChange = (e) => {
-    console.log('handle change')
+    console.log('handle change');
   };
   handleSubmit = (e) => {
-    console.log('handle submit')
+    console.log('handle submit');
   };
   clearList = (e) => {
-    console.log('clear list')
+    console.log('clear list');
   };
   handleDelete = (id) => {
-    console.log(`handle edit ${id}`)
+    console.log(`handle edit ${id}`);
   };
   handleEdit = (id)=>{
-    console.log(`edit edit ${id}`)
+    console.log(`edit edit ${id}`);
   };
-  render() {
-    return (
+  return (
       <div className="container">
         <div className="row">
           <div className="col-10 mx-auto col-md-8 mt-5">
@@ -56,8 +55,7 @@ function App() {
         </div>
       </div>
   
-    );
-  }  
+    );  
 }
 
 export default App;
